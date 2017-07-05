@@ -1,7 +1,11 @@
 
 // console.log('hello world');  
 
-document.getElementById("addText").innerHTML = "Hello World";
+var p = document.getElementById("addText");
+p.innerHTML = "Hello World";
 
+// var divParent = document.getElementById("addText");
+// var divEnfant = document.getElementById("remove");
 
+document.getElementById("addText").parentNode.removeChild(document.getElementById("remove"));
 
