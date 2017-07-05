@@ -1,2 +1,7 @@
 
-console.log('hello world');  
+// console.log('hello world');  
+
+document.getElementById("addText").innerHTML = "Hello World";
+
+
+
